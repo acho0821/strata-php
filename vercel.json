@@ -3,5 +3,8 @@
     "api/**/*.php": {
       "runtime": "@php-runtime/vercel"
     }
-  }
+  },
+  "builds": [
+    { "src": "api/**/*.php", "use": "@php-runtime/vercel" }
+  ]
 }
