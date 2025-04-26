@@ -1,10 +1,10 @@
 {
   "functions": {
-    "api/**/*.php": {
+    "index.php": {
       "runtime": "@php-runtime/vercel"
     }
   },
   "builds": [
-    { "src": "api/**/*.php", "use": "@php-runtime/vercel" }
+    { "src": "index.php", "use": "@php-runtime/vercel" }
   ]
 }
